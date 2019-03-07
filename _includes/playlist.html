@@ -4,7 +4,14 @@
             {% for slider in site.data.podcast %}
             <div class="swiper-slide" style="background-color: #{{ slider.background-color }};">
                 <div class="container-fluid default-container">
-                    <div class="col-md-8 left-section">
+                   
+                    <div class="col-md-4 col-md-push-8 col-xs-12 right-section">
+                        <div class="playlist-poster-container">
+                            <img src="{{ slider.poster }}" class="playlist-poster img-responsive center-block"/>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 col-md-pull-4 col-xs-12 left-section">
                         <div class="playlist-content">
                             <div class="playlist-season-container">
                                 <h3 class="playlist-season">Season {{ slider.season }} - Episode {{ slider.episode }}</h3>
@@ -20,7 +27,7 @@
                             <div class="playlist-podcast-container">
                                 <div class="row">
                                     {% for podcastList in slider.podcast %}
-                                    <div class="col-md-3 playlist-podcast-item">
+                                    <div class="col-md-3 col-xs-12 playlist-podcast-item">
                                         <a href="#{{ podcastList.link }}">
                                             <img src="{{ podcastList.logo }}" class="podcast-button center-block img-responsive"/>
                                         </a>
@@ -28,11 +35,6 @@
                                     {% endfor %}
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 right-section">
-                        <div class="playlist-poster-container">
-                            <img src="{{ slider.poster }}" class="playlist-poster img-responsive center-block"/>
                         </div>
                     </div>
                 </div>
