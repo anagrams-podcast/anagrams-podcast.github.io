@@ -1,8 +1,13 @@
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+
+    var swiper = new Swiper('.swiper-container', {
+        noSwiping: false,
         loop: true,
-        margin: 10,
-        nav: true,
-        items: 1
-    })
+        effect: 'fade',
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    
 });

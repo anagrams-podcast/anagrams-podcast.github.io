@@ -1,16 +1,47 @@
 <div class="container-fluid no-gutter">
-    <div class="owl-carousel owl-theme">
-        <div class="item"><h4>1</h4></div>
-        <div class="item"><h4>2</h4></div>
-        <div class="item"><h4>3</h4></div>
-        <div class="item"><h4>4</h4></div>
-        <div class="item"><h4>5</h4></div>
-        <div class="item"><h4>6</h4></div>
-        <div class="item"><h4>7</h4></div>
-        <div class="item"><h4>8</h4></div>
-        <div class="item"><h4>9</h4></div>
-        <div class="item"><h4>10</h4></div>
-        <div class="item"><h4>11</h4></div>
-        <div class="item"><h4>12</h4></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            {% for slider in site.data.podcast %}
+            <div class="swiper-slide" style="background-color: #{{ slider.background-color }};">
+                <div class="container-fluid default-container">
+                    <div class="col-md-8 left-section">
+                        <div class="playlist-content">
+                            <div class="playlist-season-container">
+                                <h3 class="playlist-season">Season {{ slider.season }} - Episode {{ slider.episode }}</h3>
+                            </div>
+                
+                            <div class="playlist-header-container">
+                                <h1 class="playlist-header">{{ slider.title }}</h1>
+                                <p class="playlist-description text-default">{{ slider.description }}</p>
+                            </div>
+                            
+                            <div class="playlist-player-container"></div>
+
+                            <div class="playlist-podcast-container">
+                                <div class="row">
+                                    {% for podcastList in slider.podcast %}
+                                    <div class="col-md-3 playlist-podcast-item">
+                                        <a href="#{{ podcastList.link }}">
+                                            <img src="{{ podcastList.logo }}" class="podcast-button center-block img-responsive"/>
+                                        </a>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 right-section">
+                        <div class="playlist-poster-container">
+                            <img src="{{ slider.poster }}" class="playlist-poster img-responsive center-block"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
     </div>
 </div>

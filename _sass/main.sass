@@ -10,6 +10,14 @@ body
   padding-left: 0
   padding-right: 0  
 
+.align-content-vertical
+  top: 50%
+  transform: translateY(-50%)
+  -webkit-transform: translateY(-50%)
+  -moz-transform: translateY(-50%)
+  -o-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+
 .default-container
   max-width: 1440px
   width: 100%
@@ -20,9 +28,11 @@ body
 
 nav
   &.navbar
+    position: relative
     background-color: $header-background-color
     border: none
     border-radius: 0
+    margin-bottom: 0
   .container
     .navbar-header
       .navbar-brand
@@ -49,9 +59,71 @@ nav
             font-weight: 200
             display: block
             letter-spacing: 1px
+
+#playlist
+  position: relative
+  height: calc(100vh - 237px)
+  .container-fluid
+    height: inherit
+    .swiper-container 
+      width: 100%
+      height: inherit
+      .swiper-slide 
+        height: inherit
+        .container-fluid
+          height: inherit
+
+          .left-section
+            height: inherit
+            .playlist-content
+              position: relative
+              @extend .align-content-vertical
+
+              .playlist-season-container
+                .playlist-season
+                  text-transform: uppercase
+                  font-weight: 700
+                  letter-spacing: 1px
+
+              .playlist-header-container
+                margin-top: 40px
+                .playlist-header
+                  text-transform: uppercase
+                  font-size: 48px
+                  font-weight: 500
+                  letter-spacing: 2px
+                .playlist-description
+                  margin-top: 20px
+                  max-width: 710px
+                  font-size: 16px
+                  line-height: 1.6
+                  font-weight: 300
+                  
+              .playlist-player-container
+                height: 60px
+                width: 100%
+                background-color: #6d6d6d
+                margin-top: 60px
+              
+              .playlist-podcast-container
+                margin-top: 60px
+
+          .right-section
+            height: inherit
+            .playlist-poster-container
+              position: relative
+              @extend .align-content-vertical
+              .playlist-poster
+                
+                
+
+
   
 footer
+  position: relative
   background-color: $footer-background-color
+  margin-top: 30px
+  margin-bottom: 30px
   .container
     .content-container
       text-align: center
