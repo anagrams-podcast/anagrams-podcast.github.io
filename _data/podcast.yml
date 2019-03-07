@@ -8,7 +8,7 @@
   audio-link: https://cdn.simplecast.com/audio/5bd27d/5bd27d7c-823d-44e9-a908-6f545e0a8e18/90bbbc97-4e16-4152-bb19-ae50b0a986ea/ASFM_S1E1_tc.mp3
   podcast:
     - logo: /img/spotify-podcast-logo.png
-      link:
+      link: https://open.spotify.com/show/2FLO7aOakb7RUuiZPXYiF5
 
 
 - season: 1
@@ -20,7 +20,7 @@
   audio-link: https://cdn.simplecast.com/audio/5bd27d/5bd27d7c-823d-44e9-a908-6f545e0a8e18/90bbbc97-4e16-4152-bb19-ae50b0a986ea/ASFM_S1E1_tc.mp3
   podcast:
     - logo: /img/spotify-podcast-logo.png
-      link:
+      link: https://open.spotify.com/show/2FLO7aOakb7RUuiZPXYiF5
 
 
 
