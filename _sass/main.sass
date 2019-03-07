@@ -256,7 +256,14 @@ footer
     .container 
       .navbar-header 
         .navbar-brand 
-          .header-text-container 
+          float: none
+          display: table
+          margin-left: auto
+          margin-right: auto
+          .brand-logo
+            float: none
+          .header-text-container
+            display: none 
             .header-text
               font-size: 12px
             .header-subtext
@@ -280,10 +287,19 @@ footer
                 .playlist-poster
                   max-width: 180px
 
-
   footer
     margin-top: 20px
     margin-bottom: 20px
+
+@media (max-width: 380px)
+  #playlist
+    .container-fluid 
+      .swiper-container 
+        .swiper-slide
+          padding-left: 20px
+          padding-right: 20px
+
+
 
 
 
