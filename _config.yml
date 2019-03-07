@@ -1,0 +1,17 @@
+# Site settings
+title: Anagrams Podcast
+description: >
+  Lorem ipsum dolor sit amet consequet.
+baseurl: ""
+url: 
+
+# Build settings
+markdown: kramdown
+
+sass:
+    style: :compressed
+
+
+
+
+
