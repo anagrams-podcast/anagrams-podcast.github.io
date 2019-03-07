@@ -1,4 +1,11 @@
-# Site data 
+# Site data
+
+header-logo:
+header-text: Real life anagrams podcast
+header-sub-text: with Astrid Chug and Stepahnie Sol
+
+
+
 footer-header: Real Life Anagrams
 footer-description: is a podcast about women empowerment and making STEM relatable. It is hosted by Astrid Chug, Software Engineer and Stepahnie Sol, actress/model/entrepreneur.
 
