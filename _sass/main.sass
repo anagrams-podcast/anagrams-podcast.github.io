@@ -72,20 +72,17 @@ nav
         height: inherit
         .container-fluid
           height: inherit
-
           .left-section
             height: inherit
             .playlist-content
               position: relative
               @extend .align-content-vertical
-
               .playlist-season-container
                 .playlist-season
                   font-size: 20px
                   text-transform: uppercase
                   font-weight: 700
                   letter-spacing: 1px
-
               .playlist-header-container
                 margin-top: 30px
                 .playlist-header
@@ -229,7 +226,6 @@ footer
               .playlist-content
                 margin-top: 30px
                 text-align: center
-
                 .playlist-season-container
                   .playlist-season
                     font-size: 16px
@@ -249,17 +245,51 @@ footer
                         width: 100%
                         max-width: 200px
                         
-
             .right-section 
               .playlist-poster-container
                 .playlist-poster
                   max-width: 300px
                   width: 100%
 
+@media (max-width: 425px)
+  nav 
+    .container 
+      .navbar-header 
+        .navbar-brand 
+          .header-text-container 
+            .header-text
+              font-size: 12px
+            .header-subtext
+
+  #playlist 
+    .container-fluid 
+      .swiper-container 
+        .swiper-slide 
+          .container-fluid 
+            .left-section 
+              .playlist-content 
+                .playlist-season-container
+                  .playlist-season
+                    font-size: 14px
+                .playlist-header-container 
+                  .playlist-header
+                    font-size: 18px
+
+            .right-section
+              .playlist-poster-container
+                .playlist-poster
+                  max-width: 180px
+
+
+  footer
+    margin-top: 20px
+    margin-bottom: 20px
+
+
+
                 
    
-                
-
+            
 
   
 
