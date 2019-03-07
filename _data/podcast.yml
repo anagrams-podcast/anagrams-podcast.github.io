@@ -2,10 +2,10 @@
 - season: 1
   episode: 2
   background-color: ffeaec
-  title: TITLE 2
+  title: BECOMING A ROLE MODEL
   description: Real Life Anagrams is a podcast about women empowerment and making STEM relatable. It is Hosted by Astrid Chug, Software Engineer and Stephanie Sol, actress/model/entrepreneur. 
   poster: /img/s1ep2-photo.jpg
-  audio-link: https://s3.amazonaws.com/ShopTalk/080_rapidfire_19.mp3
+  audio-link: https://cdn.simplecast.com/audio/5bd27d/5bd27d7c-823d-44e9-a908-6f545e0a8e18/90bbbc97-4e16-4152-bb19-ae50b0a986ea/ASFM_S1E1_tc.mp3
   podcast:
     - logo: /img/spotify-podcast-logo.png
       link:
@@ -20,10 +20,10 @@
 - season: 1
   episode: 1
   background-color: ffeaec
-  title: BEING A ROLE MODEL
-  description: Real Life Anagrams is a podcast about women empowerment and making STEM relatable. It is Hosted by Astrid Chug, Software Engineer and Stephanie Sol, actress/model/entrepreneur. 
+  title: INTRODUCTION AND BEING A WOMAN
+  description: In this episode, we introduced ourselves and the show, talked about how we came about this and why. This is the first episode of our Season 1: From Girl Power to Women Empowerment so we also shared our thoughts on becoming a woman and more.
   poster: /img/s1ep1-photo.jpg
-  audio-link: https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Swing_Jazz_Drum.mp3
+  audio-link: https://cdn.simplecast.com/audio/5bd27d/5bd27d7c-823d-44e9-a908-6f545e0a8e18/90bbbc97-4e16-4152-bb19-ae50b0a986ea/ASFM_S1E1_tc.mp3
   podcast:
     - logo: /img/spotify-podcast-logo.png
       link:
