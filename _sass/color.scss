@@ -1,8 +1,15 @@
 // Color Settings only
 $white: #ffffff;
+$black: #000000;
+$primary: #f4b1b9;
+$secondary: #ffeaec;
 
 
 
 // Variable Declaration only
+$header-background-color: $black;
+$header-text-color: $primary;
+$header-sub-text-color: $secondary;
+
 $footer-header-text-color: $white;
 $footer-description-text-color: $white;

@@ -1,17 +1,54 @@
 @import color
 
+$Montserrat: 'Montserrat', sans-serif
+
 // Reusable class
+body
+  font-family: $Montserrat
+
 .no-gutter
   padding-left: 0
   padding-right: 0  
 
-body
-  padding-top: 50px
+.default-container
+  max-width: 1440px
+  width: 100%
 
+.paragraph-default
+  font-size: 24px
+  font-weight: 300
 
-.owl-carousel
-  .item
-    background-color: #eaeaea
+nav
+  &.navbar
+    background-color: $header-background-color
+    border: none
+    border-radius: 0
+  .container
+    .navbar-header
+      .navbar-brand
+        height: auto
+        .brand-logo
+          height: 100px
+          float: left
+        .header-text-container
+          position: relative
+          float: left
+          margin-left: 30px
+          margin-top: 40px
+          .header-text
+            color: $header-text-color
+            font-size: 20px
+            font-weight: 200
+            text-transform: uppercase
+            letter-spacing: 2px
+            display: block
+          .header-sub-text
+            margin-top: 5px
+            color: $header-sub-text-color
+            font-size: 14px
+            font-weight: 200
+            display: block
+            letter-spacing: 1px
   
 footer
   .container
