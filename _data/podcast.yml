@@ -1,1 +1,37 @@
 # List of podcast data
+
+- season: 1
+  episode: 1
+  background-color: ffeaec
+  title: BEING A ROLE MODEL
+  description: Real Life Anagrams is a podcast about women empowerment and making STEM relatable. It is Hosted by Astrid Chug, Software Engineer and Stephanie Sol, actress/model/entrepreneur. 
+  poster: /img/s1ep1-photo.jpg
+  audio-link:
+  podcast:
+    - logo: /img/spotify-podcast-logo.png
+      link:
+
+    - logo: /img/google-podcast-logo.png
+      link:
+
+    - logo: /img/apple-podcast-logo.png
+      link:
+
+
+- season: 1
+  episode: 2
+  background-color: ffeaec
+  title: TITLE 2
+  description: Real Life Anagrams is a podcast about women empowerment and making STEM relatable. It is Hosted by Astrid Chug, Software Engineer and Stephanie Sol, actress/model/entrepreneur. 
+  poster: /img/s1ep2-photo.jpg
+  audio-link:
+  podcast:
+    - logo: /img/spotify-podcast-logo.png
+      link:
+
+    - logo: /img/google-podcast-logo.png
+      link:
+
+    - logo: /img/apple-podcast-logo.png
+      link:
+
