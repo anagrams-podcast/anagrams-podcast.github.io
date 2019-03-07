@@ -99,8 +99,17 @@ nav
                   
               .playlist-player-container
                 margin-top: 60px
+                position: relative
                 audio
                   width: 100%
+                .playlist-download
+                  padding-top: 16px
+                  float: left
+                  a
+                    display: block
+                    .download-icon
+                      height: 22px
+               
               
               .playlist-podcast-container
                 margin-top: 40px
@@ -136,38 +145,7 @@ footer
 
 audio::-webkit-media-controls-panel
   background-color: $secondary
-
-// audio::-webkit-media-controls-panel
-//   filter: invert(100%)
-// audio::-webkit-media-controls-mute-button
-//   filter: invert(100%)
-// audio::-webkit-media-controls-play-button
-//   filter: invert(100%)
-// audio::-webkit-media-controls-timeline-container
-//   filter: invert(100%)
-// audio::-webkit-media-controls-current-time-display
-//   filter: invert(100%)
-// audio::-webkit-media-controls-time-remaining-display
-//   filter: invert(100%)
-// audio::-webkit-media-controls-timeline
-//   filter: invert(100%)
-// audio::-webkit-media-controls-volume-slider-container
-//   filter: invert(100%)
-// audio::-webkit-media-controls-volume-slider
-//   filter: invert(100%)
-// audio::-webkit-media-controls-seek-back-button
-//   filter: invert(100%)
-// audio::-webkit-media-controls-seek-forward-button
-//   filter: invert(100%)
-// audio::-webkit-media-controls-fullscreen-button
-//   filter: invert(100%)
-// audio::-webkit-media-controls-rewind-button
-//   filter: invert(100%)
-// audio::-webkit-media-controls-return-to-realtime-button
-//   filter: invert(100%)
-// audio::-webkit-media-controls-toggle-closed-captions-button
-//   filter: invert(100%)
-
+  position: relative
 
 @media (max-width: 1440px)
   .default-container
