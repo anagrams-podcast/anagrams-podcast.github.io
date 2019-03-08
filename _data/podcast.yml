@@ -1,7 +1,6 @@
 # List of podcast data
 - season: 1
   episode: 2
-  background-color: ffeaec
   title: BECOMING A ROLE MODEL
   description: This is the second episode of our Season 1 - From Girl Power to Women Empowerment. In this episode, we have invited Lites Viloria from the International Labour Organization. She is the National Project Coordinator of Women in STEM Readiness Program. She talked about her work, passion, and how she empowers women. She also shared her journey on becoming who she is today.
   poster: /img/s1ep2-photo.jpg
@@ -13,7 +12,6 @@
 
 - season: 1
   episode: 1
-  background-color: ffeaec
   title: INTRODUCTION AND BEING A WOMAN
   description: In this episode, we introduced ourselves and the show, talked about how we came about this and why. This is the first episode of our Season 1 - From Girl Power to Women Empowerment so we also shared our thoughts on becoming a woman and more.
   poster: /img/s1ep1-photo.jpg
