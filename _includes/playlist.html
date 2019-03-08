@@ -22,7 +22,7 @@
                                 <p class="playlist-description text-default">{{ slider.description }}</p>
                             </div>
                             
-                            <div class="playlist-player-container">
+                            <div class="playlist-player-container clearfix">
                             
                                 <div class="playlist-audio col-xs-11 no-gutter">
                                     <audio controls controlsList="nodownload">
@@ -40,7 +40,7 @@
                             <div class="playlist-podcast-container">
                                 <div class="row">
                                     {% for podcastList in slider.podcast %}
-                                    <div class="col-md-3 col-xs-12 playlist-podcast-item swiper-no-swiping">
+                                    <div class="col-md-3 col-xs-12 playlist-podcast-item">
                                         <a href="{{ podcastList.link }}" target="_blank">
                                             <img src="{{ podcastList.logo }}" class="podcast-button center-block img-responsive"/>
                                         </a>
